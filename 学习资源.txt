@@ -1,0 +1,34 @@
+学习资源：
+Python
+1. http://www.runoob.com/python/python-tutorial.html
+2. https://www.liaoxuefeng.com/wiki/
+
+python pyQT
+https://doc.qt.io/qtforpython/contents.html
+https://www.xdbcb8.com/archives/1036.html
+https://www.xdbcb8.com/archives/1102.html
+https://www.xdbcb8.com/archives/1126.html
+
+FFmpeg:
+https://ffmpy3.readthedocs.io/en/latest/index.html
+http://ffmpeg.org/ffmpeg-all.html
+https://docs.pythontab.com/tornado/introduction-to-tornado/index.html
+
+nginx-http-flv-module
+  https://github.com/winshining/nginx-http-flv-module
+  https://github.com/bilibili/flv.js
+
+QWebEngine compile: add H264 adn AAC encode/decode
+1. https://stackoverflow.com/questions/50510457/how-to-compile-qt-webengine-5-11-on-windows-with-proprietary-codecs
+2. https://doc.qt.io/qt-5/qtwebengine-platform-notes.html#windows
+
+
+
+
+
+
+
+
+
+
+

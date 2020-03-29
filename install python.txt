@@ -1,0 +1,93 @@
+幻灯片文档查看：F5运行，光标键前后翻页
+
+安装完python后：
+ pip国内源加速
+windows:
+%HOMEPATH%\pip\pip.ini
+ [global]
+ trusted-host =  mirrors.aliyun.com
+ index-url = https://mirrors.aliyun.com/pypi/simple
+
+-----------------------------------------
+
+1  install python 3.6.1
+1）.不用超级管理员，安装
+2.） 用客户化模式
+3）.缺省设置外，加选一个增加环境变量
+
+
+2 pip install ffmpy3
+ 1） python
+ 2)  >>>import ffmyp3
+ 3）>>>ffmpy3.    __version__
+      >>>0.2.3
+
+3 pip install pyqt5==5.13.2
+  网络中断，可以多次执行
+
+4 pip install 
+pip install PyQtWebEngine==5.13.2
+
+5.pip install tornado
+
+6. install vscode
+7. install python extend for vs
+8. pip install flake8  in vscode terminal
+9. pip install yapf in vscode terminal
+
+------------------------------------------------
+Example 1:
+hello.py
+print("hello world!")
+
+---------------------
+---------------------------------
+Example 2:
+http://chrome.360.cn/test/html5/
+http://html5test.com/
+
+Hello.py
+
+import sys
+from PyQt5 import QtCore, QtWebEngineWidgets
+from PyQt5.QtWidgets import QApplication, QMainWindow
+
+class Ui_MainWindows(object):
+    def SetupUi(self, Ui_MainWindows):
+        MainWindow.setWindowTitle("HTML5测试")
+        MainWindow.resize(800,600)
+        #加载外部的web页
+        self.browser = QtWebEngineWidgets.QWebEngineView(MainWindow)
+        self.browser.setGeometry(QtCore.QRect(0,0,800,600))
+        self.browser.load(QtCore.QUrl("http://chrome.360.cn/test/html5/"))
+
+if __name__ == '__main__':
+    app = QApplication(sys.argv)
+    MainWindow =QMainWindow()
+    ui = Ui_MainWindows()
+    ui.SetupUi(MainWindow)
+    MainWindow.show()
+    sys.exit(app.exec_())
+-----------------
+test 1: 
+  ctrl+F5:  Run without debugging
+ OK,  Show a web brower about "http://chrome.360.cn/test/html5/"
+
+test 2:
+  F5 ,select debug type : python file
+ OK,  now show a web brower "http://chrome.360.cn/test/html5/"
+ 
+ debug , step over
+  running window at background
+  use ATL+TAB switch
+
+不支持：
+ MPAGE4
+H.264
+AAC
+--web通知  
+
+
+--------------------------------------------
+
+
