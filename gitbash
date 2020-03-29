@@ -1,0 +1,19 @@
+gitbash免密登录
+
+注意！一定要是ssh链接，这样才可以避免以后每次传项目都要输入密码
+
+https://blog.csdn.net/aj_shang/article/details/52822713
+
+https://blog.csdn.net/zwjzqqb/article/details/82152161
+
+ win下使用git-bash工具进行ssh免密登录服务器
+
+
+#--------------------------
+1、ssh-keygen.exe 生成公钥私钥(.pub)
+2、ssh-agent.exe bash  指定工具
+3、ssh-add.exe   ****   添加私钥
+OK
+
+这篇文章讲的最好！
+https://blog.csdn.net/lqlqlq007/article/details/79065095
